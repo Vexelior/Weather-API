@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather API</title>
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./img/icon.png">
+</head>
+<body>
+    <div class="body-container">
+        <div class="card">
+            <div class="search">
+              <input type="text" class="search-bar" placeholder="Search..." style="margin-right: 10px;">
+              <button class="btn btn-primary btn-sm" type="submit">Search</button>
+            </div>
+            <br>
+            <div class="weather loading">
+              <h2 class="city">Weather in Denver</h2>
+              <h1 class="temp">51°F</h1>
+              <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="weather-image" class="icon" />
+                <div class="description">Cloudy</div>
+              </div>
+              <div class="humidity">Humidity: 60%</div>
+              <div class="wind">Wind speed: 6.2 km/h</div>
+            </div>
+          </div>
+    </div>
+    <footer>         
+        <p>Copyright &copy; 2022</p>        
+    </footer>    
+</body>
+</html>
